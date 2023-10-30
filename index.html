@@ -9,7 +9,11 @@
 </head>
 <body>
     <div id="conteudo_principal">
-        <h1>Você curte <img src="imagens/ManuelGomes1.png" alt="Manuel Gomes Caneta azul"> ?</h1>
+        <h1>Você curte <picture>
+            <source media="(max-width: 600px)" srcset="imagens/ManuelGomes1125-83px.png">
+            
+            <img src="imagens/ManuelGomes1.png" alt="Manuel Gomes Caneta azul">
+        </picture> ?</h1>
         <div id="botoes">
             <button id="btnNao">Não</button>
             <button id="btnSim">Sim</button>
